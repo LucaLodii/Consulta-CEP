@@ -1,8 +1,3 @@
-Claro\! Aqui está o conteúdo formatado como um arquivo Markdown (`.md`), ideal para ser usado em documentações no GitHub, GitLab, ou simplesmente para ser lido de forma mais organizada.
-
------
-
-```markdown
 # Mini Projeto — Consulta de CEP
 ## Arquitetura Hexagonal em .NET
 
