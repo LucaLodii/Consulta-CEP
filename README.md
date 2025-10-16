@@ -51,9 +51,9 @@ ConsultaCep/
 **Objetivo:** garantir que o projeto esteja rodando corretamente.
 
 #### Etapa 2 — Modelagem de Domínio
-- [ ] Identificar os dados necessários de um endereço (CEP, Logradouro, Cidade, UF etc).
-- [ ] Criar a entidade principal do domínio.
-- [ ] Definir a interface (porta de saída) que representará o serviço de consulta de CEP.
+- [x] Identificar os dados necessários de um endereço (CEP, Logradouro, Cidade, UF etc).
+- [x] Criar a entidade principal do domínio.
+- [x] Definir a interface (porta de saída) que representará o serviço de consulta de CEP.
 **Objetivo:** definir o núcleo do sistema — as regras de negócio e contratos.
 
 #### Etapa 3 — Caso de Uso (Application Layer)
