@@ -15,7 +15,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+git branch -M main
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
