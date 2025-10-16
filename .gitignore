@@ -1,0 +1,37 @@
+# Arquivo .gitignore para projetos .NET (baseado no padrão da Microsoft)
+
+# Binaries for the current project
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio user files
+*.suo
+*.user
+*.userosscore
+*.sln.docstates
+
+# Visual Studio Code files
+.vscode/
+
+# NuGet packages and caches
+.nuget/
+!/.nuget/NuGet.Config
+!/.nuget/NuGet.targets
+# The package files are not necessary, the project references the NuGet feed
+packages/
+
+# Test results
+TestResults/
+coverlet/
+
+# Rider files
+.idea/
+
+# Windows specific
+Thumb.db
+[Dd]ebug/
+[Rr]elease/
+
+# Recommended: Ignore the content in the .vs folder, except for solution files which may hold team settings.
+.vs/
+!/.vs/Solution/
