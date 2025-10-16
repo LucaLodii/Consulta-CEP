@@ -45,9 +45,9 @@ ConsultaCep/
 ### Roteiro de Desenvolvimento
 
 #### Etapa 1 — Configuração Inicial
-- [ ] Criar a solução e os projetos nas camadas propostas.
-- [ ] Configurar o Swagger para documentar os endpoints.
-- [ ] Criar um endpoint de teste (`/health`) para validar o funcionamento.
+- [x] Criar a solução e os projetos nas camadas propostas.
+- [x] Configurar o Swagger para documentar os endpoints.
+- [x] Criar um endpoint de teste (`/health`) para validar o funcionamento.
 **Objetivo:** garantir que o projeto esteja rodando corretamente.
 
 #### Etapa 2 — Modelagem de Domínio
