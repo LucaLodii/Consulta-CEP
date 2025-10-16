@@ -7,14 +7,14 @@ Desenvolver uma Web API em .NET que consulte informações de um CEP utilizando 
 ---
 
 ### Requisitos Técnicos
-| Categoria          | Requisito                                  |
-| ------------------ | ------------------------------------------ |
-| **Framework** | .NET 8.0 ou superior                       |
-| **Arquitetura** | Hexagonal (Ports & Adapters)               |
-| **Formato de Retorno** | JSON                                       |
-| **Documentação** | Swagger                                    |
-| **Boas Práticas** | Clean Code, SOLID                          |
-| **Outros** | Tratamento de erros, Injeção de dependência |
+| Categoria              | Requisito                                   |
+| ------------------     | ------------------------------------------- |
+| **Framework**          | .NET 8.0 ou superior                        |
+| **Arquitetura**        | Hexagonal (Ports & Adapters)                |
+| **Formato de Retorno** | JSON                                        |
+| **Documentação**       | Swagger                                     |
+| **Boas Práticas**      | Clean Code, SOLID                           |
+| **Outros**             | Tratamento de erros, Injeção de dependência |
 
 ---
 
