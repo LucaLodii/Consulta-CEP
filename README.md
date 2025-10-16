@@ -1,8 +1,3 @@
-Claro\! Aqui está o conteúdo formatado como um arquivo Markdown (`.md`), ideal para ser usado em documentações no GitHub, GitLab, ou simplesmente para ser lido de forma mais organizada.
-
------
-
-```markdown
 # Mini Projeto — Consulta de CEP
 ## Arquitetura Hexagonal em .NET
 
@@ -12,14 +7,14 @@ Desenvolver uma Web API em .NET que consulte informações de um CEP utilizando 
 ---
 
 ### Requisitos Técnicos
-| Categoria          | Requisito                                  |
-| ------------------ | ------------------------------------------ |
-| **Framework** | .NET 8.0 ou superior                       |
-| **Arquitetura** | Hexagonal (Ports & Adapters)               |
-| **Formato de Retorno** | JSON                                       |
-| **Documentação** | Swagger                                    |
-| **Boas Práticas** | Clean Code, SOLID                          |
-| **Outros** | Tratamento de erros, Injeção de dependência |
+| Categoria              | Requisito                                   |
+| ------------------     | ------------------------------------------- |
+| **Framework**          | .NET 8.0 ou superior                        |
+| **Arquitetura**        | Hexagonal (Ports & Adapters)                |
+| **Formato de Retorno** | JSON                                        |
+| **Documentação**       | Swagger                                     |
+| **Boas Práticas**      | Clean Code, SOLID                           |
+| **Outros**             | Tratamento de erros, Injeção de dependência |
 
 ---
 
