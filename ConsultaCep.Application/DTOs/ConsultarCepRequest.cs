@@ -2,6 +2,6 @@ namespace ConsultaCep.Application.DTOs
 {
     public class ConsultarCepRequest
     {
-        // TODO: Add Cep property
+        public string Cep { get; set; }
     }
 }

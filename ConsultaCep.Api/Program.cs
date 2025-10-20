@@ -1,3 +1,5 @@
+// Everything hear was done automatically by Visual Studio
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,3 +22,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

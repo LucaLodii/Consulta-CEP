@@ -6,12 +6,12 @@
 * Returns HTTP responses (JSON, status codes)
 */
 
-using Microsoft.AspNetCore.Mvc; // Its like Java, you use it so you dont need to write the whole thing
+using Microsoft.AspNetCore.Mvc; // Its like C++, you use it so you dont need to write the whole thing
 
-namespace Consulta_CEP.Controllers // This only changes the name, but ASP.NET expects controllers to be in a .Controllers namespace
+namespace ConsultaCep.Api.Controllers // This only changes the name, but ASP.NET expects controllers to be in a .Controllers namespace
 {
     [ApiController] // Thats an attribute that tells ASP.NET that this class is a controller, and this adds some features to it
-    // now you need to map it so so the API know where to find it
+    // now you need to map it so the API know where to find it
     [Route("api/[controller]")] // Another attribute that tells ASP.NET that this controller will be accessed at the /api/healthcheck endpoint
     
     public class HealthCheckController : ControllerBase
@@ -30,3 +30,4 @@ namespace Consulta_CEP.Controllers // This only changes the name, but ASP.NET ex
         }
     }
 }
+
