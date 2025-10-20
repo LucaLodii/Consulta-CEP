@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCep.Application", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCep.Infrastructure", "ConsultaCep.Infrastructure\ConsultaCep.Infrastructure.csproj", "{5338F9E4-0BF3-4E75-A9B8-D088EE431FD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCep.Tests", "ConsultaCep.Tests\ConsultaCep.Tests.csproj", "{83966014-BCE1-4D41-BF59-6C72B3772CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5338F9E4-0BF3-4E75-A9B8-D088EE431FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5338F9E4-0BF3-4E75-A9B8-D088EE431FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5338F9E4-0BF3-4E75-A9B8-D088EE431FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83966014-BCE1-4D41-BF59-6C72B3772CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83966014-BCE1-4D41-BF59-6C72B3772CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83966014-BCE1-4D41-BF59-6C72B3772CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83966014-BCE1-4D41-BF59-6C72B3772CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
