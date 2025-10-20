@@ -5,11 +5,11 @@ namespace Consulta_CEP.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CepController : ControllerBase
+    public class CepController : ControllerBase // Controller Layer (Web Layer)
     {
-        private readonly ConsultarCepUseCase _consultarCepUseCase;
+        private readonly ConsultarCepUseCase _consultarCepUseCase; // Use Case Layer (Application Layer)
 
-        public CepController(ConsultarCepUseCase consultarCepUseCase)
+        public CepController(ConsultarCepUseCase consultarCepUseCase) // Dependency Injection (Infrastructure Layer)
         {
             _consultarCepUseCase = consultarCepUseCase;
         }
