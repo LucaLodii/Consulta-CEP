@@ -57,17 +57,17 @@ ConsultaCep/
 **Objetivo:** definir o núcleo do sistema — as regras de negócio e contratos.
 
 #### Etapa 3 — Caso de Uso (Application Layer)
-- [ ] Criar um caso de uso responsável por:
+- [x] Criar um caso de uso responsável por:
     - Receber o CEP da requisição.
     - Validar o formato do CEP.
     - Acionar a interface do serviço (porta de saída).
-- [ ] Preparar o retorno com os dados do endereço.
+- [x] Preparar o retorno com os dados do endereço.
 **Objetivo:** concentrar a lógica de aplicação e orquestrar as chamadas.
 
 #### Etapa 4 — Adapter Externo (Infrastructure Layer)
-- [ ] Criar um adapter que consulta uma API pública (ViaCEP ou Correios).
-- [ ] Tratar erros de comunicação (API fora do ar, CEP inválido, etc.).
-- [ ] Converter o retorno da API externa para o modelo interno da aplicação.
+- [x] Criar um adapter que consulta uma API pública (ViaCEP ou Correios).
+- [x] Tratar erros de comunicação (API fora do ar, CEP inválido, etc.).
+- [x] Converter o retorno da API externa para o modelo interno da aplicação.
 **Objetivo:** conectar a aplicação ao mundo externo sem acoplar regras de negócio.
 
 #### Etapa 5 — Controller (Web Layer)
