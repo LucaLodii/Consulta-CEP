@@ -8,19 +8,19 @@ namespace ConsultaCep.Application.UseCases
     {
         private readonly ICepService _cepService;
 
-        public ConsultarCepUseCase(ICepService cepService)
+        public ConsultarCepUseCase(ICepService cepService) // Dependency Injection 
         {
             _cepService = cepService;
         }
 
-        public async Task<ConsultarCepResponse> ExecuteAsync(string cep)
+        public async Task<ConsultarCepResponse> ExecuteAsync(string cep) // Business Logic 
         {
-            if (string.IsNullOrWhiteSpace(cep) || cep.Length != 8)
+            if (string.IsNullOrWhiteSpace(cep) || cep.Length != 8) // Validation 
             {
                 throw new ArgumentException("CEP inválido");
             }
-            var endereco = await _cepService.ConsultarCepAsync(cep);
-            var response = new ConsultarCepResponse
+            var endereco = await _cepService.ConsultarCepAsync(cep); // fetch the data from the external service (ViaCEP API)
+            var response = new ConsultarCepResponse // Convert the data to the response object
             {
                 Cep = endereco.Cep,
                 Logradouro = endereco.Logradouro,
@@ -29,7 +29,7 @@ namespace ConsultaCep.Application.UseCases
                 Bairro = endereco.Bairro,
                 Complemento = endereco.Complemento
             };
-            return response;
+            return response; // Return the response as a Task<ConsultarCepResponse> 
         }
     }
 }
